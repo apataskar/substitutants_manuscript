@@ -1,5 +1,5 @@
 # substitutants_manuscript
-Code for manuscript datasets
+Code for cancer datasets substitutant analysis
 
 Large Scale analysis of CPTAC exemplified by LSCC analysis
 
