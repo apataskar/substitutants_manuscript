@@ -116,11 +116,14 @@ lines (density (rowSums(wv_c)))
 lines (density (rowSums(random_c)), col="darkgreen",lwd=2)
 dev.off()
 
-#Note in the manuscript
-# For figure 3f the filter for wf_c is added, while for figure 3a, this filter is not added;
+Note in the manuscript
+For figure 3f the filter for wf_c is added, while for figure 3a, this filter is not added;
+
 #wf_c= wy_c [ rowSums (wy_c) < 20,]
 
-# As described in the methods section “analysis of large-scale proteomics data of human cancer”, for intra-tumour type analysis (Fig.3f), a filter for maximum number of samples was applied to retain peptides with higher specificity in expression. However, in the tumor-specific analysis (Fig.3a) this filter was not applied for W>F Substitutants both because of their exclusive significant and specific distribution (Extended Fig. 3, p.val 1.13E-09) and in order to optimize inclusion of signal for gene expression correlation analysis (Fig.3c-e). 
+
+As described in the methods section “analysis of large-scale proteomics data of human cancer”, for intra-tumour type analysis (Fig.3f), a filter for maximum number of samples was applied to retain peptides with higher specificity in expression. However, in the tumor-specific analysis (Fig.3a) this filter was not applied for W>F Substitutants both because of their exclusive significant and specific distribution (Extended Fig. 3, p.val 1.13E-09) and in order to optimize inclusion of signal for gene expression correlation analysis (Fig.3c-e). 
+
 wy_c = wy_c [ rowSums (wy_c) < 20,]
 wa_c = wa_c [ rowSums (wa_c) < 20,]
 wg_c = wg_c [ rowSums (wg_c) < 20,]
