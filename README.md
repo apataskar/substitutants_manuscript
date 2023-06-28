@@ -24,3 +24,8 @@ grep -Fwf W_F.txt ratio_peptide_None.tsv > W_F2.txtratio_peptide_None.tsv
 This script gives substitutant peptide filters, counts and plots (attached in the github folder).
 
 peptide_filters.R (attached)
+
+
+6. The detailed description in toto is here;
+
+https://github.com/jasminesmn/ABPEPserver
