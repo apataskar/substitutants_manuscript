@@ -23,6 +23,7 @@ grep -Fwf W_F.txt ratio_peptide_None.tsv > W_F2.txtratio_peptide_None.tsv
 
 library ("dplyr")
 wf = read.table ("W_F2.txtratio_peptide_None.tsv", head=T)
+
 wy = read.table ("W_Y2.txtratio_peptide_None.tsv", head=T)
 wa = read.table ("W_A2.txtratio_peptide_None.tsv", head=T)
 wg = read.table ("W_G2.txtratio_peptide_None.tsv", head=T)
