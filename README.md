@@ -22,23 +22,39 @@ grep -Fwf W_F.txt ratio_peptide_None.tsv > W_F2.txtratio_peptide_None.tsv
 5. Make a Rscript to get counts;
 
 library ("dplyr")
+
 wf = read.table ("W_F2.txtratio_peptide_None.tsv", head=T)
 
 wy = read.table ("W_Y2.txtratio_peptide_None.tsv", head=T)
+
 wa = read.table ("W_A2.txtratio_peptide_None.tsv", head=T)
+
 wg = read.table ("W_G2.txtratio_peptide_None.tsv", head=T)
+
 wh = read.table ("W_H2.txtratio_peptide_None.tsv", head=T)
+
 wc = read.table ("W_C2.txtratio_peptide_None.tsv", head=T)
+
 wd = read.table ("W_D2.txtratio_peptide_None.tsv", head=T)
+
 we = read.table ("W_E2.txtratio_peptide_None.tsv", head=T)
+
 wi = read.table ("W_I2.txtratio_peptide_None.tsv", head=T)
+
 wl = read.table ("W_L2.txtratio_peptide_None.tsv", head=T)
+
 wm = read.table ("W_M2.txtratio_peptide_None.tsv", head=T)
+
 wn = read.table ("W_N2.txtratio_peptide_None.tsv", head=T)
+
 wp = read.table ("W_P2.txtratio_peptide_None.tsv", head=T)
+
 wq = read.table ("W_Q2.txtratio_peptide_None.tsv", head=T)
+
 ws = read.table ("W_S2.txtratio_peptide_None.tsv", head=T)
+
 wt = read.table ("W_T2.txtratio_peptide_None.tsv", head=T)
+
 wv = read.table ("W_V2.txtratio_peptide_None.tsv", head=T)
 
 
