@@ -1,6 +1,10 @@
 # substitutants_manuscript
 Code for cancer datasets substitutant analysis
 
+Cancer cells experience tryptophan shortage as a consequence of interferon-gamma (IFN) signaling pathway. It has been recently demonstrated that such tryptophan shortage leads to tryptophan to phenylalanine codon reassignment (W>F) resulting into aberrant peptide products. ABPEPserver offers the visualization of a large-scale proteomics analysis of multiple human cancer types in which aberrant peptides are detected. In this analysis, tryptophan to phenylalanine (W>F) codon reassignment were found to be a vastly abundant phenomenon in multiple cancer types. Furthermore, these W>F mis-incorporations, called W>F substitutants, were found to be enriched in tumors as compared with tumor-adjacent normal tissues, and often their appearance was associated with T-cell and oncogenic signaling activities. Proteomic cancer data from multiple cancer types, hosted by PDC commons database, have been used in this analysis. An in depth description of how the analysis is given in github link given in point 6.
+
+
+
 Large Scale analysis of CPTAC exemplified by LSCC analysis
 
 1. Datasets for LSCC are downloaded in MZML format from PDC commmons webpage https://proteomic.datacommons.cancer.gov/pdc/study/PDC000234
